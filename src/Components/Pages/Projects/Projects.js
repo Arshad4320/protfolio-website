@@ -4,11 +4,11 @@ import img2 from '../../../img/img2.jpg'
 import img3 from '../../../img/img3.jpg'
 const Projects = () => {
     return (
-        <div>
+        <div >
             <div><h2 className='text-4xl font-semibold text-center py-10 text-teal-500'>Projects</h2></div>
             <div className='grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-10 mx-10'>
 
-                <div className="card card-compact w-90 bg-base-100 shadow-xl mx-auto">
+                <div className="card card-compact w-90 bg-base-100 shadow-xl mx-auto " data-aos="fade-up">
                     <figure><img src={img} alt="Food" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Food Review</h2>
@@ -21,7 +21,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-90 bg-base-100 shadow-xl">
+                <div className="card card-compact w-90 bg-base-100 shadow-xl" data-aos="fade-up">
                     <figure><img src={img2} alt="bike" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Bike Resale</h2>
@@ -37,7 +37,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact w-90 bg-base-100 shadow-xl">
+                <div className="card card-compact w-90 bg-base-100 shadow-xl " data-aos="fade-up">
                     <figure><img src={img3} alt="code pen" /></figure>
                     <div className="card-body">
                         <h2 className="card-title">Code pen</h2>

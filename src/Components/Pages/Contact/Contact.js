@@ -2,10 +2,11 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='mx-10 '>
+        <div className='mx-10 ' data-aos="fade-up">
             <div><h2 className='text-4xl font-semibold text-center py-12 text-teal-500'>Contact Us</h2></div>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-2'>
-                <form action="" className='w-50 shadow-2xl  p-10 rounded-md'>
+
+                <form action="https://formsubmit.co/2f7a99d9f8ea027b63372ebea84bfe3a " method="POST" className='w-50 shadow-2xl  p-10 rounded-md'>
                     <label className='text-xl  text-teal-400' htmlFor="Name">Name</label><br />
                     <input type="text" placeholder="Name" className="input w-full bordered my-2" required />
                     <label className='text-xl text-teal-400' htmlFor="email">Email</label><br />
